@@ -1,0 +1,22 @@
+@import url(./header.scss);
+@import url(./main.scss);
+@import url(./social.scss);
+@import url(./tabs.scss);
+@import url(./about.scss);
+@import url(./pricing.scss);
+@import url(./reviews.scss);
+@import url(./stylish.scss);
+@import url(./contact.scss);
+@import url(./footer.scss);
+
+body{
+    margin: 0;
+}
+
+
+.wrap{
+    position: relative;
+    max-width: 1510px;
+    margin: auto;
+}
+

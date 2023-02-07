@@ -1,0 +1,481 @@
+.footer_block_container {
+  max-width: 1510px;
+  height: 164px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.footer_block_wrapper {
+  width: 1169px / 1510px * 100%;
+  height: 102px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer_icon_block {
+  width: 570px / 1169px * 100%;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_year_block {
+  width: 100%;
+  height: 21px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.facebook_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px / 570px * 100%;
+  height: 53px / 70px * 100%;
+}
+
+.twitter_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px / 570px * 100%;
+  height: 53px;
+}
+
+.linkedin_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px / 570px * 100%;
+  height: 53px;
+}
+
+.pintrest_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px / 570px * 100%;
+  height: 53px;
+}
+
+.instagram_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px / 570px * 100%;
+  height: 53px;
+}
+
+.github_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px / 570px * 100%;
+  height: 53px;
+}
+
+.rss_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px / 570px * 100%;
+  height: 53px;
+}
+
+@media (max-width: 1124px) {
+  .footer_block_container {
+    max-width: 1510px;
+    height: 164px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer_block_wrapper {
+    width: 1169px / 1510px * 100%;
+    height: 102px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer_icon_block {
+    width: 770px / 1169px * 100%;
+    height: 54px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_year_block {
+    width: 100%;
+    height: 21px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .facebook_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .twitter_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .linkedin_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .pintrest_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .instagram_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .github_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .rss_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 760px) {
+  .footer_block_container {
+    max-width: 1510px;
+    height: 164px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer_block_wrapper {
+    width: 1169px / 1510px * 100%;
+    height: 102px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer_icon_block {
+    width: 100%;
+    height: 54px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_year_block {
+    width: 100%;
+    height: 21px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .facebook_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .twitter_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .linkedin_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .pintrest_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .instagram_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .github_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .rss_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer_block_container {
+    max-width: 1510px;
+    height: 164px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer_block_wrapper {
+    width: 1169px / 1510px * 100%;
+    height: 102px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer_icon_block {
+    width: 100%;
+    height: 54px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_year_block {
+    width: 100%;
+    height: 21px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .facebook_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+  }
+
+  .twitter_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+  }
+
+  .linkedin_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+  }
+
+  .pintrest_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+  }
+
+  .instagram_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+  }
+
+  .github_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+  }
+
+  .rss_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .footer_block_container {
+    max-width: 1510px;
+    height: 164px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer_block_wrapper {
+    width: 1169px / 1510px * 100%;
+    height: 102px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer_icon_block {
+    width: 100%;
+    height: 54px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_year_block {
+    width: 100%;
+    height: 21px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .facebook_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+  }
+
+  .twitter_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+  }
+
+  .linkedin_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+  }
+
+  .pintrest_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+  }
+
+  .instagram_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+  }
+
+  .github_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+  }
+
+  .rss_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+  }
+}

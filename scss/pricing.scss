@@ -1,0 +1,638 @@
+.pricing_block_container {
+    max-width: 1510px;
+    height: 900px ;
+    margin: auto;
+background-color: #F5F5F5;
+}
+.wraper_pricing {
+    width: 1170px;
+    height: 0;
+    margin: auto;
+}
+.pricing_wraper_block {
+     width: 100%;
+     height: 900px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+
+}
+
+.pricing_group_wraper_block {
+    width: 100%;
+    height: 510px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing_column_block {
+    width: 370px / 1170px *100%;
+    height: 510px ;
+    display: flex;
+    flex-direction: column;
+}
+.pricin_black_block_wrapper {
+    width: 100%;
+    height: 210px;
+   display: flex;
+   flex-direction: column; 
+}
+.pricin_black_block_firs {
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.pricin_black_block_second {
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+.pricin_black_block_third {
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+color: rgba(255, 255, 255, 0.5);
+}
+.pricin_white_block_wrapper {
+    width: 100%;
+    height: 300px;
+   display: flex;
+   flex-direction: column; 
+   justify-content: space-between;
+}
+.pricin_white_block {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+border: 2px solid #F5F5F5;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+justify-content: center;
+color: #86878B;
+}
+
+.pricing_column_block_transform{
+margin-top: -20px;
+box-shadow: 0.11px 0.1px 50px 2px gray;
+}
+
+@media (max-width: 1199px){
+    .pricing_block_container {
+        max-width: 1510px;
+        height: 900px ;
+        margin: auto;
+    background-color: #F5F5F5;;
+    }
+    .wraper_pricing {
+        width: 1170px  / 1200px *100%;
+        height: 0;
+        margin: auto;
+    }
+    .pricing_wraper_block {
+         width: 100%;
+         height: 900px;
+         margin: 0 auto;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+    
+    }
+    
+    .pricing_group_wraper_block {
+        width: 100%;
+        height: 510px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .pricing_column_block {
+        width: 370px / 1170px *100%;
+        height: 510px ;
+        display: flex;
+        flex-direction: column;
+    }
+    .pricin_black_block_wrapper {
+        width: 100%;
+        height: 210px;
+       display: flex;
+       flex-direction: column; 
+    }
+    .pricin_black_block_firs {
+        width: 100%;
+        height: 60px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    }
+    .pricin_black_block_second {
+        width: 100%;
+        height: 100px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+    .pricin_black_block_third {
+        width: 100%;
+        height: 50px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.5);
+    }
+    .pricin_white_block_wrapper {
+        width: 100%;
+        height: 300px;
+       display: flex;
+       flex-direction: column; 
+       justify-content: space-between;
+    }
+    .pricin_white_block {
+        width: 100%;
+        height: 50px;
+        background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+    color: #86878B;
+    }
+    
+}
+
+@media (max-width: 925px){
+    .pricing_block_container {
+        max-width: 1510px;
+        height: 1950px ;
+        margin: auto;
+    background-color: #F5F5F5;;
+    }
+    .wraper_pricing {
+        width: 1170px  / 1200px *100%;
+        height: 0;
+        margin: auto;
+    }
+    .pricing_wraper_block {
+         width: 100%;
+         height: 1950px;
+         margin: auto;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+    
+    }
+    
+    .pricing_group_wraper_block {
+        width: 100%;
+        height: 1550px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .pricing_column_block {
+        width: 370px ;
+        height: 510px ;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .pricing_column_block_transform{
+        margin-top: 0px;
+        box-shadow: 0px 0px 0px 0px white;
+        margin-top: 20px;
+        }
+    .pricin_black_block_wrapper {
+        width: 100%;
+        height: 210px;
+       display: flex;
+       flex-direction: column; 
+    }
+    .pricin_black_block_firs {
+        width: 100%;
+        height: 60px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    }
+    .pricin_black_block_second {
+        width: 100%;
+        height: 100px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+    .pricin_black_block_third {
+        width: 100%;
+        height: 50px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.5);
+    }
+    .pricin_white_block_wrapper {
+        width: 100%;
+        height: 300px;
+       display: flex;
+       flex-direction: column; 
+       justify-content: space-between;
+    }
+    .pricin_white_block {
+        width: 100%;
+        height: 50px;
+        background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+    color: #86878B;
+    }
+    
+}
+@media (max-width: 500px){
+    .pricing_block_container {
+        max-width: 1510px;
+        height: 1950px ;
+        margin: auto;
+    background-color: #F5F5F5;;
+    }
+    .wraper_pricing {
+        width: 1170px  / 1200px *100%;
+        height: 0;
+        margin: auto;
+    }
+    .pricing_wraper_block {
+         width: 100%;
+         height: 1950px;
+         margin: auto;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+    
+    }
+    
+    .pricing_group_wraper_block {
+        width: 100%;
+        height: 1550px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .pricing_column_block {
+        width: 320px ;
+        height: 510px ;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .pricing_column_block_transform{
+        margin-top: 0px;
+        box-shadow: 0px 0px 0px 0px white;
+        margin-top: 20px;
+        }
+    .pricin_black_block_wrapper {
+        width: 100%;
+        height: 210px;
+       display: flex;
+       flex-direction: column; 
+    }
+    .pricin_black_block_firs {
+        width: 100%;
+        height: 60px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    }
+    .pricin_black_block_second {
+        width: 100%;
+        height: 100px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+    .pricin_black_block_third {
+        width: 100%;
+        height: 50px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.5);
+    }
+    .pricin_white_block_wrapper {
+        width: 100%;
+        height: 300px;
+       display: flex;
+       flex-direction: column; 
+       justify-content: space-between;
+    }
+    .pricin_white_block {
+        width: 100%;
+        height: 50px;
+        background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+    color: #86878B;
+    }
+    
+}
+@media (max-width: 350px){
+    .pricing_block_container {
+        max-width: 1510px;
+        height: 1950px ;
+        margin: auto;
+    background-color: #F5F5F5;;
+    }
+    .wraper_pricing {
+        width: 1170px  / 1200px *100%;
+        height: 0;
+        margin: auto;
+    }
+    .pricing_wraper_block {
+         width: 100%;
+         height: 1950px;
+         margin: auto;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+    
+    }
+    
+    .pricing_group_wraper_block {
+        width: 100%;
+        height: 1550px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .pricing_column_block {
+        width: 300px / 320px *100% ;
+        height: 510px ;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .pricing_column_block_transform{
+        margin-top: 0px;
+        box-shadow: 0px 0px 0px 0px white;
+        margin-top: 20px;
+        }
+    .pricin_black_block_wrapper {
+        width: 100%;
+        height: 210px;
+       display: flex;
+       flex-direction: column; 
+    }
+    .pricin_black_block_firs {
+        width: 100%;
+        height: 60px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    }
+    .pricin_black_block_second {
+        width: 100%;
+        height: 100px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+    .pricin_black_block_third {
+        width: 100%;
+        height: 50px;
+        background-color: #333333;
+        border: 2px solid #F5F5F5;
+    
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.5);
+    }
+    .pricin_white_block_wrapper {
+        width: 100%;
+        height: 300px;
+       display: flex;
+       flex-direction: column; 
+       justify-content: space-between;
+    }
+    .pricin_white_block {
+        width: 100%;
+        height: 50px;
+        background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+    color: #86878B;
+    }
+    
+}
